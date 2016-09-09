@@ -1,0 +1,30 @@
+$pixel-width: 6px;
+&.two-circles{
+	width:128px;
+	height:128px;
+	animation: move 1s linear infinite;
+	&, & div{
+		border: $pixel-width solid rgba(255,255,255,.5);
+		border-top:$pixel-width solid rgba(255,255,255,1);
+
+		border-radius: 50%;
+	}
+	position:relative;
+
+	$innerWidth: 70;
+	$x: (100 - 70) / 2;
+	.spinner2{
+		position: absolute;
+		left:calc(#{$x}% - #{$pixel-width});
+		top:calc(#{$x}% - #{$pixel-width});
+		width: $innerWidth;
+		width: percentage($innerWidth/100);
+		height: percentage($innerWidth/100);
+		animation: move 7s linear infinite;
+	}
+}
+
+
+	@keyframes move{
+		100%{transform:rotate(360deg);}
+	}

@@ -1,0 +1,48 @@
+&.cube-spinner{
+	width:128px;
+	height:128px;
+	border: 8px solid white;
+	border-radius: 6px;
+	position: relative;
+	animation: 2s rotate-cube-spinner infinite;
+	overflow:hidden;
+	.spinner-box{
+		position: absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		background-color: white;
+		animation: 2s fill-spinner-box infinite;
+		animation-delay: .5s;
+	}
+}
+
+@keyframes rotate-cube-spinner{
+	25%{
+		transform: rotate(180deg);
+	}
+	50%{
+		transform: rotate(180deg);
+	}
+	75%{
+		transform: rotate(360deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+@keyframes fill-spinner-box{
+	25%{
+		top:100%;
+	}
+	50%{
+		top:100%;	
+	}
+	75%{
+		top:0%;
+	}
+	100%{
+		top:0%;
+	}
+}

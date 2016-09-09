@@ -1,0 +1,24 @@
+{
+  "name": "xSpinner",
+  "description": "",
+  "main": "",
+  "authors": [
+    ""
+  ],
+  "license": "MIT",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/xremix/generator-gulp-sass-coffeescript",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
