@@ -1,6 +1,6 @@
 {
   "name": "xSpinner",
-  "description": "",
+  "description": "xSpinner is a CSS Library for animated Loading Spinners.  ",
   "main": "dist/xSpinner.min.css",
   "authors": [
     ""
