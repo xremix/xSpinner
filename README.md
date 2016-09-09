@@ -25,7 +25,7 @@ For example use `@import 'cube-spinner';` in your SASS.
 
 ### Two Circles
 
-![Two Circles](cube-spinner.gif)
+![Two Circles](two-circles.gif)
 
 ```HTML
 <div class="xspinner two-circles"><div class="spinner2"></div></div>
