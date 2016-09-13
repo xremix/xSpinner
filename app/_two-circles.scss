@@ -1,5 +1,5 @@
 $pixel-width: 6px;
-&.two-circles{
+.xspinner.two-circles{
 	width:128px;
 	height:128px;
 	animation: move 1s linear infinite;
@@ -25,6 +25,6 @@ $pixel-width: 6px;
 }
 
 
-	@keyframes move{
-		100%{transform:rotate(360deg);}
-	}
+@keyframes move{
+	100%{transform:rotate(360deg);}
+}

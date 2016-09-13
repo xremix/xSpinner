@@ -1,9 +1,9 @@
 {
   "name": "xSpinner",
-  "description": "xSpinner is a CSS Library for animated Loading Spinners.  ",
+  "description": "xSpinner is a CSS Library for animated Loading Spinners.",
   "main": "dist/xSpinner.min.css",
   "authors": [
-    ""
+    "Toni Hoffmann <toni-hoffmann@xremix.de>"
   ],
   "license": "MIT",
   "keywords": [

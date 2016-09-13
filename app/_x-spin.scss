@@ -1,50 +1,50 @@
-.singlexspinner{
-				width:100px;
-				height:100px;
-				position: relative;
-				background:lightgray;
-				}
-				.x1, .x2{
-					top:42px;
-					left:0px;
-					width:100px;
-					border: 8px solid white;
-					position: absolute;
-				}
-				.x1{
-					transform:rotate(45deg) scale(1);
-				}
-				.x2{
-					transform:rotate(-45deg) scale(1);
-				}
+.xspinner.singlexspinner{
+	width:100px;
+	height:100px;
+	position: relative;
+	background:lightgray;
+}
+.x1, .x2{
+	top:42px;
+	left:0px;
+	width:100px;
+	border: 8px solid white;
+	position: absolute;
+}
+.x1{
+	transform:rotate(45deg) scale(1);
+}
+.x2{
+	transform:rotate(-45deg) scale(1);
+}
 
-				@keyframes movex1{
-					0%{
-						transform:rotate(45deg);
-						width:100px;
-					}
+@keyframes movex1{
+	0%{
+		transform:rotate(45deg);
+		width:100px;
+	}
 
-					50%{
-						transform:rotate(45deg);
-						width:80px;
-					}
-					100%{
-						transform:rotate(45deg);
-						width:100px;
-					}
-				}
-				@keyframes movex2{
-					0%{
-						transform:rotate(-45deg);
-						width:100px;
-					}
+	50%{
+		transform:rotate(45deg);
+		width:80px;
+	}
+	100%{
+		transform:rotate(45deg);
+		width:100px;
+	}
+}
+@keyframes movex2{
+	0%{
+		transform:rotate(-45deg);
+		width:100px;
+	}
 
-					50%{
-						transform:rotate(-45deg);
-						width:80px;
-					}
-					100%{
-						transform:rotate(-45deg);
-						width:100px;
-					}
-				}
+	50%{
+		transform:rotate(-45deg);
+		width:80px;
+	}
+	100%{
+		transform:rotate(-45deg);
+		width:100px;
+	}
+}
