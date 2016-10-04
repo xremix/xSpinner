@@ -1,6 +1,6 @@
 {
   "name": "xspinner",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "xSpinner is a CSS Library for animated Loading Spinners.  ",
   "files": [
     "app"

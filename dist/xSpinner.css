@@ -4,8 +4,8 @@
   border: 8px solid white;
   border-radius: 6px;
   position: relative;
-  -webkit-animation: 2s rotate-cube-spinner infinite;
   animation: 2s rotate-cube-spinner infinite;
+  animation-delay: .5s;
   overflow: hidden; }
   .xspinner.cube-spinner .spinner-box {
     position: absolute;
@@ -14,48 +14,17 @@
     left: 0;
     right: 0;
     background-color: white;
-    -webkit-animation: 2s fill-spinner-box infinite;
-    animation: 2s fill-spinner-box infinite;
-    -webkit-animation-delay: .5s;
-    animation-delay: .5s; }
-
-@-webkit-keyframes rotate-cube-spinner {
-  25% {
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg); }
-  50% {
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg); }
-  75% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+    animation: 2s fill-spinner-box infinite; }
 
 @keyframes rotate-cube-spinner {
   25% {
-    -webkit-transform: rotate(180deg);
     transform: rotate(180deg); }
   50% {
-    -webkit-transform: rotate(180deg);
     transform: rotate(180deg); }
   75% {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg); }
   100% {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
-
-@-webkit-keyframes fill-spinner-box {
-  25% {
-    top: 100%; }
-  50% {
-    top: 100%; }
-  75% {
-    top: 0%; }
-  100% {
-    top: 0%; } }
 
 @keyframes fill-spinner-box {
   25% {
@@ -70,7 +39,6 @@
 .xspinner.two-circles {
   width: 128px;
   height: 128px;
-  -webkit-animation: move 1s linear infinite;
   animation: move 1s linear infinite;
   position: relative; }
   .xspinner.two-circles, .xspinner.two-circles div {
@@ -84,15 +52,8 @@
     width: 70;
     width: 70%;
     height: 70%;
-    -webkit-animation: move 7s linear infinite;
     animation: move 7s linear infinite; }
-
-@-webkit-keyframes move {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
 
 @keyframes move {
   100% {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }

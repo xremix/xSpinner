@@ -5,6 +5,7 @@
 	border-radius: 6px;
 	position: relative;
 	animation: 2s rotate-cube-spinner infinite;
+	animation-delay: .5s;
 	overflow:hidden;
 	.spinner-box{
 		position: absolute;
@@ -14,7 +15,6 @@
 		right:0;
 		background-color: white;
 		animation: 2s fill-spinner-box infinite;
-		animation-delay: .5s;
 	}
 }
 
