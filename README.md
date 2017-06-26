@@ -31,3 +31,4 @@ For example use `@import 'cube-spinner';` in your SASS.
 <div class="xspinner two-circles"><div class="spinner2"></div></div>
 ```
 
+![Analytics](https://ga-beacon.appspot.com/UA-40522413-9/xSpinner/readme?pixel)
